@@ -10,7 +10,12 @@ to run outlawqa, simply run the following:
 python3.12 outlawqa.py
 ```
 
-or the usual set of pqa cli should work too if you set the paper directory to downloaded_papers -- see the paper-qa README for more details
+or the usual set of pqa cli should work too if you set the paper directory to downloaded_papers -- see the paper-qa README for more details, but basically:
+
+```bash
+cd paper-qa
+pqa ask "what is the best way to learn about the history of the internet?"
+```
 
 create a .env file with the following:
 
