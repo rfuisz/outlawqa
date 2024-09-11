@@ -10,9 +10,17 @@ to run outlawqa, simply run the following:
 python3.12 outlawqa.py
 ```
 
-or the usual set of pqa cli should work too if you set the paper directory to downloaded_papers
+or the usual set of pqa cli should work too if you set the paper directory to downloaded_papers -- see the paper-qa README for more details
 
+create a .env file with the following:
+
+```bash
 OPENAI_API_KEY=sk-proj-blank
 DOI2PDF=https://blank
 CROSSREF_MAILTO=blank@gmail.com
 SERPAPI_API_KEY=blank
+
+## optionally, if you want less rate limiting:
+SEMANTIC_SCHOLAR_API_KEY=blank
+CROSSREF_API_KEY=blank
+```
