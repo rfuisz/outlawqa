@@ -3,3 +3,4 @@ venv
 .env
 submodules/.DS_Store
 .DS_Store
+downloaded_papers/*
