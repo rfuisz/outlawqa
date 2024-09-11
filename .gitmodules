@@ -1,0 +1,6 @@
+[submodule "submodules/paper-qa"]
+	path = submodules/paper-qa
+	url = https://github.com/rfuisz/paper-qa.git
+[submodule "submodules/paper-scraper"]
+	path = submodules/paper-scraper
+	url = https://github.com/rfuisz/paper-scraper.git
